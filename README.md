@@ -35,3 +35,11 @@
   ![top_3d](images/v2_top_3d.png)
 
 </details>
+
+### pcb photo
+
+<details>
+
+  ![pcb v2](images/v2.jpg)
+
+</details>
