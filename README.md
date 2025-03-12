@@ -43,3 +43,25 @@
   ![pcb v2](images/v2.jpg)
 
 </details>
+
+## Version 3
+- remove on board voltage select
+- add TVS diodes
+- use 10-pin jtag header instead
+- use RX/TX LED pin on ftdi chip
+
+### 3d model
+
+<details>
+
+  ![top_3d](images/v3_3d.png)
+
+</details>
+
+### pcb photo
+
+<details>
+
+  ![pcb v3](images/v3.jpg)
+
+</details>
