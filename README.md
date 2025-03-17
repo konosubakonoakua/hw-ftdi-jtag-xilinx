@@ -65,3 +65,10 @@
   ![pcb v3](images/v3.jpg)
 
 </details>
+
+## Notes
+- the murata 12MHz crystal cannot satisfy 30ppm, instead, its precision has only 700ppm.
+  - This is the ***root cause*** of all stupid bugs I have encounter so far, FU**!!!
+  - I choose to solder a DT-38 crystal instead as a workaround.
+  - Version 1/2/3 are all fucked.
+  - This murata crystal will be replaced in future version.
