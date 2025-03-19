@@ -72,3 +72,19 @@
   - I choose to solder a DT-38 crystal instead as a workaround.
   - Version 1/2/3 are all fucked.
   - This murata crystal will be replaced in future version.
+
+## Production
+- For linux
+  ```bash
+  # remove ftdi kernel driver everytime if you plug ftdi in
+  sudo rmmod ftdi_sio && sudo rmmod usbserial
+  ```
+  ```bash
+  # otherwise, program_ftdi will be not found
+  source /tools/Xilinx/Vivado/2024.2/settings64.sh && vivado
+  ```
+- Inside vivado
+  ```tcl
+  # tested withvivado 2024.2
+  program_ftdi -write -f FT2232H -s 0000003 -v "RF/IMPCAS" -b "custom" -d "FT2232H JTAG Cable 10P"
+  ```
