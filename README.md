@@ -46,6 +46,29 @@
 
 </details>
 
+## Version 2.1
+- use RX/TX LED pin on ftdi chip
+- add TVS diodes
+- replace murata 3pin 0.5% crystal with 4pin 10ppm crystal
+- new top silk logos
+
+
+### 3d model
+
+<details>
+
+  ![top_3d_v2](images/v2.1_3d.png)
+
+</details>
+
+### pcb photo [WIP]
+
+<details>
+
+  ![pcb v2](images/v2.1.jpg)
+
+</details>
+
 ## Version 3
 - remove on board voltage select
 - add TVS diodes
