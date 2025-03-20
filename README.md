@@ -66,6 +66,25 @@
 
 </details>
 
+## Version 3.1
+- replace murata 3pin 0.5% crystal with 4pin 10ppm crystal
+
+### 3d model
+
+<details>
+
+  ![top_3d](images/v3.1_3d.png)
+
+</details>
+
+### pcb photo [WIP]
+
+<details>
+
+  ![pcb v3](images/v3.1.jpg)
+
+</details>
+
 ## Notes
 - the murata 12MHz crystal cannot satisfy 30ppm, instead, its precision has only 700ppm.
   - This is the ***root cause*** of all stupid bugs I have encounter so far, FU**!!!
