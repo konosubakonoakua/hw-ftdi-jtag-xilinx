@@ -10,8 +10,8 @@
 
 <details>
 
-  ![top_3d](images/top_3d.png)
-  ![bottom_3d](images/bottom_3d.png)
+  ![top_3d_v1](images/top_3d.png)
+  ![bottom_3d_v1](images/bottom_3d.png)
 
 </details>
 
@@ -32,7 +32,7 @@
 
 <details>
 
-  ![top_3d](images/v2_top_3d.png)
+  ![top_3d_v2](images/v2_top_3d.png)
 
 </details>
 
@@ -54,7 +54,7 @@
 
 <details>
 
-  ![top_3d](images/v3_3d.png)
+  ![top_3d_v3](images/v3_3d.png)
 
 </details>
 
@@ -73,7 +73,7 @@
 
 <details>
 
-  ![top_3d](images/v3.1_3d.png)
+  ![top_3d_v3.1](images/v3.1_3d.png)
 
 </details>
 
@@ -81,7 +81,26 @@
 
 <details>
 
-  ![pcb v3](images/v3.1.jpg)
+  ![pcb v3.1](images/v3.1.jpg)
+
+</details>
+
+## Version 3.2
+- use VREF instead of 3V3 for UART 4pin header
+
+### 3d model
+
+<details>
+
+  ![top_3d_v3.2](images/v3.2_3d.png)
+
+</details>
+
+### pcb photo [WIP]
+
+<details>
+
+  ![pcb v3.2](images/v3.2.jpg)
 
 </details>
 
