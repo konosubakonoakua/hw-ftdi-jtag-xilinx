@@ -4,6 +4,7 @@
 - has bug with the auto-direction level shifter, only works with slow rate
 - has manufacturing limit with the jtag & usb track due to JLCPCB limitaion
 - has wrong silk print for rx/tx
+- LEDs for UART not working
 - BUG: cannot download flash if JTAG f_tck > 1MHz (~5MHz~) (roughly), I really don't know Y, cause the BIT file can be downloaded at 30MHz rate.
 
 ### 3d model
@@ -25,6 +26,7 @@
 
 
 ## Version 2
+- LEDs for UART not working
 - replace auto-direction level shifters with fix-direction ones
 - satisfy the JLC track to track clearance limit
 
