@@ -1,6 +1,6 @@
 # hw-ftdi-jtag-xilinx
 
-## Version 1
+## Version 1 [❌]
 - has bug with the auto-direction level shifter, only works with slow rate
 - has manufacturing limit with the jtag & usb track due to JLCPCB limitaion
 - has wrong silk print for rx/tx
@@ -25,7 +25,7 @@
 </details>
 
 
-## Version 2
+## Version 2 [❌]
 - LEDs for UART not working
 - replace auto-direction level shifters with fix-direction ones
 - satisfy the JLC track to track clearance limit
@@ -46,11 +46,12 @@
 
 </details>
 
-## Version 2.1
+## Version 2.1 [✅]
 - use RX/TX LED pin on ftdi chip
 - add TVS diodes
 - replace murata 3pin 0.5% crystal with 4pin 10ppm crystal
 - new top silk logos
+- able to adapt several votage levels with internal voltage reference [removed in v3]
 
 
 ### 3d model
@@ -69,7 +70,7 @@
 
 </details>
 
-## Version 3
+## Version 3 [❌]
 - remove on board voltage select
 - add TVS diodes
 - use 10-pin jtag header instead
@@ -91,7 +92,7 @@
 
 </details>
 
-## Version 3.1
+## Version 3.1 [✅]
 - replace murata 3pin 0.5% crystal with 4pin 10ppm crystal
 
 ### 3d model
@@ -110,7 +111,7 @@
 
 </details>
 
-## Version 3.2
+## Version 3.2 [✅]
 - use VREF instead of 3V3 for UART 4pin header
 
 ### 3d model
